@@ -1,0 +1,168 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+
+
+}
+h4{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+.card-text{
+	text-align: center;
+}
+
+.card-title{
+	text-align: center;
+}
+.card-body h5{
+      text-align: center;
+}
+.nav{
+	color: #000000;
+}
+.card-title{
+	margin-bottom: .75rem;
+	height: 38px;
+}
+.card:hover{
+	box-shadow: 1px 2px 4px gray; 
+}
+
+
+/* categori part */
+
+h1{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 33px;
+
+}
+.bcd {
+  width: 136px;
+  height: 9px;
+  background-color: #ff9c35;
+  border-radius: 25px;
+  margin: 20px auto 80px;
+}
+
+.categori-4{
+    width: 100%;
+    float: left;
+    padding-top: 2%;
+}
+
+.div-side{
+    
+}
+.div-img{
+    display: block;
+    margin: 0 auto;
+}
+.first-div{
+    width: 30%;
+    background: #f1f1f1;
+    margin-top: 20%;
+    box-shadow: 3px 3px 25px #0000004F;
+    position: relative;
+    left: 35px;
+}
+.sec-4-right{
+    float: right;
+    margin-top: -45%;
+    margin-bottom: 40%;
+}
+.second-div{
+    margin-bottom: 20%;
+    width: 50%;
+    background: #f1f1f1;
+    margin-top: 15%;
+    box-shadow: 3px 3px 25px #0000004F;
+}
+.third-div{
+    width: 50%;
+    background: #f1f1f1;
+    margin-top: 12%;
+    box-shadow: 3px 3px 25px #0000004F;
+}
+
+.sec-4-img{
+    width: 100%;
+    margin-top: -7%;
+}
+
+
+.bn2{
+	background-color: #000000 !important;
+	margin: 0 auto;
+	border-radius: none;
+	border-radius: 7px;
+	transition: 0.8s;
+}
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+body {
+    width: 100%;
+}
+    .sec-1-h1 {
+    padding-top: 6%;
+    font-size: 26px;
+}
+    .first-div {
+    width: 51%;
+    background: #f1f1f1;
+    margin-top: 6%;
+    box-shadow: 3px 3px 25px #0000004F;
+    position: relative;
+    margin-left: 27%;
+}
+    .second-div {
+    margin-bottom: 20%;
+    width: 55%;
+    background: #f1f1f1;
+    margin-top: 70%;
+    box-shadow: 3px 3px 25px #0000004F;
+    margin-left: 25%;
+}
+    .third-div {
+    width: 57%;
+    background: #f1f1f1;
+    margin-top: 20%;
+    box-shadow: 3px 3px 25px #0000004F;
+    margin-left: 24%;
+}
+    .sec-4-img {
+    width: 100%;
+    margin-top: 4%;
+}
+    .footer-p {
+    color: black;
+    font-size: 11px;
+}
+
+
+
+
+}
+
+/*
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+
